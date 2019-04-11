@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Menu"
+        android:textSize="40dp"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_light"/>
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMenu"
+        android:layout_marginTop="40dp"
+        android:text="Input"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnInput"
+        android:layout_marginTop="40dp"
+        android:text="History"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_marginLeft="30dp"/>
+
+
+</RelativeLayout>
